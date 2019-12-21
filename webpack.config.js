@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/SimpleTable.js',
+  entry: './src/simpleTable.js',
   output: {
-    filename: 'SimpleTable.js',
-    path: path.resolve(__dirname, './'),
+    filename: 'simpleTable.js',
+    path: path.resolve(__dirname, './dist'),
     libraryTarget: 'amd'
   },
   module: {
