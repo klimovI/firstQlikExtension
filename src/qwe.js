@@ -1,7 +1,8 @@
 import initialProperties from './initialProperties.json';
 import definition from './definition';
 import template from './template/template.html';
-import paint from './paint';
+// import paint from './paint';
+import controller from './controller';
 
 export default {
   initialProperties,
@@ -12,5 +13,6 @@ export default {
     exportData: false
   },
   template,
-  paint
+  // paint
+  controller
 };

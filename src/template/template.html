@@ -1,6 +1,10 @@
-<div ng-app='app'>
-  <div ng-repeat="word in [1, 2, 3] track by $index">
-    {{word}}
-    {{hh}}
-  </div>
-</div>
+<table qv-extension>
+  <tr>
+    <th>{{dimensionTitle}}</th>
+    <th>{{measureTitle}}</th>
+  </tr>
+  <tr ng-repeat="dim in qMatrix">
+    <td>{{dim[0].qText}}</td>
+    <td>{{dim[1].qText}}</td>
+  </tr>
+</table>

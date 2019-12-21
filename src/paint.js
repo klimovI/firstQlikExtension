@@ -1,3 +1,5 @@
-export default $element => {
-  console.log($element[0]);
+export default ($element, layout) => {
+  const { qMatrix } = layout.qHyperCube.qDataPages[0];
+
+  console.log(qMatrix);
 };
