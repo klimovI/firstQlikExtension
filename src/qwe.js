@@ -1,4 +1,5 @@
 import template from './template/template.html';
+import paint from './paint';
 
 export default {
   support: {
@@ -7,8 +8,5 @@ export default {
     exportData: false
   },
   template,
-  paint($element) {
-    console.log($element[0]);
-    // $element.html('hui');
-  }
+  paint
 };
