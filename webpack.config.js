@@ -1,9 +1,9 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/qwe.js',
+  entry: './src/SimpleTable.js',
   output: {
-    filename: 'qwe.js',
+    filename: 'SimpleTable.js',
     path: path.resolve(__dirname, './'),
     libraryTarget: 'amd'
   },

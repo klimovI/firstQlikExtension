@@ -1,6 +1,6 @@
 {
-	"name": "qwe",
-	"description": "Basic empty visualization template",
+	"name": "SimpleTable",
+	"description": "Basic table visualization",
 	"type": "visualization",
 	"version": "1.0.0",
 	"icon": "extension",
