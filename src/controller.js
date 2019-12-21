@@ -1,8 +1,9 @@
 export default ['$scope', $scope => {
+  const { qHyperCube } = $scope.layout;
   // Data
-  $scope.qMatrix = $scope.layout.qHyperCube.qDataPages[0].qMatrix;
+  $scope.qMatrix = qHyperCube.qDataPages[0].qMatrix;
   // Title of dimension field
-  $scope.dimensionTitle = $scope.layout.qHyperCube.qDimensionInfo[0].qFallbackTitle;
+  $scope.dimensionTitle = qHyperCube.qDimensionInfo[0].qFallbackTitle;
   // Title of dmeasure field
-  $scope.measureTitle = $scope.layout.qHyperCube.qMeasureInfo[0].qFallbackTitle;
+  $scope.measureTitle = qHyperCube.qMeasureInfo[0].qFallbackTitle;
 }];
