@@ -1,5 +1,7 @@
 export default ['$scope', $scope => {
-  const { qHyperCube } = $scope.layout;
+  const {
+    qHyperCube
+  } = $scope.layout;
   // Data
   $scope.qMatrix = qHyperCube.qDataPages[0].qMatrix;
   // Title of dimension field
