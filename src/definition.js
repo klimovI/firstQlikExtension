@@ -4,13 +4,11 @@ export default {
   items: {
     dimensions: {
       uses: 'dimensions',
-      min: 1,
-      max: 10
+      min: 1
     },
     measures: {
       uses: 'measures',
-      min: 0,
-      max: 10
+      min: 0
     }
   }
 };
