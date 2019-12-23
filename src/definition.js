@@ -5,12 +5,12 @@ export default {
     dimensions: {
       uses: 'dimensions',
       min: 1,
-      max: 1
+      max: 10
     },
     measures: {
       uses: 'measures',
-      min: 1,
-      max: 1
+      min: 0,
+      max: 10
     }
   }
 };

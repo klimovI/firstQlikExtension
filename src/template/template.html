@@ -1,10 +1,9 @@
 <table qv-extension>
   <tr>
-    <th>{{dimensionTitle}}</th>
-    <th>{{measureTitle}}</th>
+    <th ng-repeat="dim in hCube.qDimensionInfo">{{dim.qFallbackTitle}}</th>
+    <th ng-repeat="mes in hCube.qMeasureInfo">{{mes.qFallbackTitle}}</th>
   </tr>
   <tr ng-repeat="dim in qMatrix">
-    <td>{{dim[0].qText}}</td>
-    <td>{{dim[1].qText}}</td>
+    <td ng-repeat="row in dim">{{row.qText}}</td>
   </tr>
 </table>
