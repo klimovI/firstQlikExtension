@@ -4,8 +4,8 @@
     "qMeasures": [],
     "qInitialDataFetch": [
       {
-        "qWidth": 100,
-        "qHeight": 100
+        "qWidth": 20,
+        "qHeight": 200
       }
     ]
   }
