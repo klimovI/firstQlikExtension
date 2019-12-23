@@ -4,4 +4,6 @@ export default ['$scope', $scope => {
   } = $scope.layout;
   // Data
   $scope.hCube = qHyperCube;
+  const loadDataButton = document.querySelector('#loadDataButton');
+  loadDataButton.addEventListener('click', () => console.log($scope.layout));
 }];
