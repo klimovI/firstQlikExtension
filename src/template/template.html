@@ -4,7 +4,7 @@
     <th ng-repeat="dimension in hCube.qDimensionInfo">{{dimension.qFallbackTitle}}</th>
     <th ng-repeat="measure in hCube.qMeasureInfo">{{measure.qFallbackTitle}}</th>
   </tr>
-  <tr ng-repeat="row in hCube.qDataPages[0].qMatrix">
+  <tr ng-repeat="row in qData">
     <td ng-repeat="column in row">{{column.qText}}</td>
   </tr>
 </table>
