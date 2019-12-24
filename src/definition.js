@@ -11,6 +11,12 @@ export default {
       uses: 'measures',
       min: 0,
       max: 10
+    },
+    MyAccordion: {
+      type: 'string',
+      label: 'Description',
+      ref: 'myNewProperty',
+      defaultValue: 'This is my description'
     }
   }
 };
